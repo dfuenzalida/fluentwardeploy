@@ -41,7 +41,7 @@ $env:AZURE_CLIENT_SECRET='SOME-RANDOM-STRING'
 Now you can run the example with:
 
 ```
-mvn exec:java
+mvn package compile exec:java
 ```
 
 ### License
